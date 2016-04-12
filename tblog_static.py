@@ -32,8 +32,8 @@ import sys
 
 
 
-my_config = { 'REPODIR'   : 'tblog',
-              'GITHUB'    : 'https://github.com/dawnsea/tblog.git', 
+my_config = { 'REPODIR'   : '29만원',
+              'GITHUB'    : 'https://github.com/니가가라하와이', 
               'DOCROOT'   : '/blog/',
               'NAME'      : '[t:/]',
               'DESC'      : '[t:/] is not technology-root',
@@ -41,7 +41,7 @@ my_config = { 'REPODIR'   : 'tblog',
               'FTP'       : 'troot.co.kr',
               'FTPUSER'   : 'keeptalk',
               'FTPPATH'   : 'www',
-              'FTPREMOTE' : '/home/hosting_users/keeptalk/www'  }
+              'FTPREMOTE' : '/home/hosting_users/리승만'  }
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
