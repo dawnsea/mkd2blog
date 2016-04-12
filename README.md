@@ -21,16 +21,16 @@ python ./tblog_static.py clone | pull
 소스 앞부분을 다음과 같이 수정
 
 ```python 
-my_config = { 'REPODIR'   : 'tblog',   # 레파짓의 로컬 디렉토리 이름
-              'GITHUB'    : 'https://github.com/dawnsea/tblog.git',  # 블로그 마크다운 문서들 보관장소 
+my_config = { 'REPODIR'   : '29만원',   # 레파짓의 로컬 디렉토리 이름
+              'GITHUB'    : 'https://github.com/dawnsea/니가가라하와이.git',  # 블로그 마크다운 문서들 보관장소 
               'DOCROOT'   : '/blog/',   # 웹서버 홈
-              'NAME'      : '[t:/]',   # rss 표시 이름
-              'DESC'      : '[t:/] is not technology-root', # rss 표시 설명
-              'URL'       : 'http://www.troot.co.kr', # rss 에서 사용할 블로그 URL
+              'NAME'      : '투표',   # rss 표시 이름
+              'DESC'      : '투표해', # rss 표시 설명
+              'URL'       : 'http://투표하세요', # rss 에서 사용할 블로그 URL
               'FTP'       : 'troot.co.kr',   # ftp 업로드 주소
-              'FTPUSER'   : 'keeptalk', # ftp 계정
-              'FTPPATH'   : 'www',  # 웹서버의 경로
-              'FTPREMOTE' : '/home/hosting_users/keeptalk/www'  }  # 웹서버의 절대 경로
+              'FTPUSER'   : '씨바스리갈', # ftp 계정
+              'FTPPATH'   : '우주',  # 웹서버의 경로
+              'FTPREMOTE' : '/home/hosting_users/살려야한다'  }  # 웹서버의 절대 경로
 ```
 
 # 글쓰기
